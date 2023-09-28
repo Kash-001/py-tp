@@ -1,6 +1,8 @@
+## returns a dict containing root and password
 def produce_default_dict():
     return {'root':'password'}
 
+## display sentence with user's name and age
 def salutation(nom: str, age: int):
     return f"Bonjour {nom}, vous avez actuellement {str(age)} ans."
 
